@@ -1,0 +1,857 @@
+.Flexgrid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.Flexgrid.Flexgrid--expanded {
+  max-width: none;
+}
+.Flexgrid.Flexgrid--collapse > .Flexgrid-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.Flexgrid .Flexgrid {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.Flexgrid .Flexgrid--noMargin {
+  margin: 0;
+}
+.Flexgrid-col--vertical {
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+.Flexgrid-col {
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-flex: 1 1 0px;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0px;
+  box-sizing: border-box;
+}
+.Flexgrid-col--noGrow {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+.Flexgrid-col--grow {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.Flexgrid-col--sm1 {
+  -webkit-flex: 0 0 8.33333%;
+  -ms-flex: 0 0 8.33333%;
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.Flexgrid-col--smoffset_0 {
+  margin-left: 0%;
+}
+.Flexgrid-col--sm2 {
+  -webkit-flex: 0 0 16.66667%;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+.Flexgrid-col--smoffset_1 {
+  margin-left: 8.33333%;
+}
+.Flexgrid-col--sm3 {
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.Flexgrid-col--smoffset_2 {
+  margin-left: 16.66667%;
+}
+.Flexgrid-col--sm4 {
+  -webkit-flex: 0 0 33.33333%;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+.Flexgrid-col--smoffset_3 {
+  margin-left: 25%;
+}
+.Flexgrid-col--sm5 {
+  -webkit-flex: 0 0 41.66667%;
+  -ms-flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+.Flexgrid-col--smoffset_4 {
+  margin-left: 33.33333%;
+}
+.Flexgrid-col--sm6 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.Flexgrid-col--smoffset_5 {
+  margin-left: 41.66667%;
+}
+.Flexgrid-col--sm7 {
+  -webkit-flex: 0 0 58.33333%;
+  -ms-flex: 0 0 58.33333%;
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+.Flexgrid-col--smoffset_6 {
+  margin-left: 50%;
+}
+.Flexgrid-col--sm8 {
+  -webkit-flex: 0 0 66.66667%;
+  -ms-flex: 0 0 66.66667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+.Flexgrid-col--smoffset_7 {
+  margin-left: 58.33333%;
+}
+.Flexgrid-col--sm9 {
+  -webkit-flex: 0 0 75%;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.Flexgrid-col--smoffset_8 {
+  margin-left: 66.66667%;
+}
+.Flexgrid-col--sm10 {
+  -webkit-flex: 0 0 83.33333%;
+  -ms-flex: 0 0 83.33333%;
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+.Flexgrid-col--smoffset_9 {
+  margin-left: 75%;
+}
+.Flexgrid-col--sm11 {
+  -webkit-flex: 0 0 91.66667%;
+  -ms-flex: 0 0 91.66667%;
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
+}
+.Flexgrid-col--smoffset_10 {
+  margin-left: 83.33333%;
+}
+.Flexgrid-col--sm12 {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.Flexgrid-col--smoffset_11 {
+  margin-left: 91.66667%;
+}
+.Flexgrid-col--smorder_1 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.Flexgrid-col--smorder_2 {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+.Flexgrid-col--smorder_3 {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+.Flexgrid-col--smorder_4 {
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+}
+.Flexgrid-col--smorder_5 {
+  -webkit-order: 5;
+  -ms-flex-order: 5;
+  order: 5;
+}
+.Flexgrid-col--smorder_6 {
+  -webkit-order: 6;
+  -ms-flex-order: 6;
+  order: 6;
+}
+.Flexgrid-col--smcollapse > .Flexgrid-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+.Flexgrid-col--smuncollapse > .Flexgrid-col {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 800px) {
+  .Flexgrid-col--md1 {
+    -webkit-flex: 0 0 8.33333%;
+    -ms-flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .Flexgrid-col--mdoffset_0 {
+    margin-left: 0%;
+  }
+  .Flexgrid-col--md2 {
+    -webkit-flex: 0 0 16.66667%;
+    -ms-flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .Flexgrid-col--mdoffset_1 {
+    margin-left: 8.33333%;
+  }
+  .Flexgrid-col--md3 {
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .Flexgrid-col--mdoffset_2 {
+    margin-left: 16.66667%;
+  }
+  .Flexgrid-col--md4 {
+    -webkit-flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .Flexgrid-col--mdoffset_3 {
+    margin-left: 25%;
+  }
+  .Flexgrid-col--md5 {
+    -webkit-flex: 0 0 41.66667%;
+    -ms-flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .Flexgrid-col--mdoffset_4 {
+    margin-left: 33.33333%;
+  }
+  .Flexgrid-col--md6 {
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .Flexgrid-col--mdoffset_5 {
+    margin-left: 41.66667%;
+  }
+  .Flexgrid-col--md7 {
+    -webkit-flex: 0 0 58.33333%;
+    -ms-flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .Flexgrid-col--mdoffset_6 {
+    margin-left: 50%;
+  }
+  .Flexgrid-col--md8 {
+    -webkit-flex: 0 0 66.66667%;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .Flexgrid-col--mdoffset_7 {
+    margin-left: 58.33333%;
+  }
+  .Flexgrid-col--md9 {
+    -webkit-flex: 0 0 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .Flexgrid-col--mdoffset_8 {
+    margin-left: 66.66667%;
+  }
+  .Flexgrid-col--md10 {
+    -webkit-flex: 0 0 83.33333%;
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .Flexgrid-col--mdoffset_9 {
+    margin-left: 75%;
+  }
+  .Flexgrid-col--md11 {
+    -webkit-flex: 0 0 91.66667%;
+    -ms-flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .Flexgrid-col--mdoffset_10 {
+    margin-left: 83.33333%;
+  }
+  .Flexgrid-col--md12 {
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .Flexgrid-col--mdoffset_11 {
+    margin-left: 91.66667%;
+  }
+  .Flexgrid-col--mdorder_1 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .Flexgrid-col--mdorder_2 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .Flexgrid-col--mdorder_3 {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .Flexgrid-col--mdorder_4 {
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .Flexgrid-col--mdorder_5 {
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .Flexgrid-col--mdorder_6 {
+    -webkit-order: 6;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+}
+@media screen and (min-width: 800px) and (min-width: 800px) {
+  .Flexgrid-col--mdexpand {
+    -webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+  }
+}
+.Flexgrid.Flexgrid-col--mdunstack .Flexgrid-col {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+@media screen and (min-width: 800px) {
+  .Flexgrid.Flexgrid-col--mdunstack .Flexgrid-col {
+    -webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .Flexgrid-col--mdcollapse > .Flexgrid-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Flexgrid-col--mduncollapse > .Flexgrid-col {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .Flexgrid-col--lg1 {
+    -webkit-flex: 0 0 8.33333%;
+    -ms-flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  .Flexgrid-col--lgoffset_0 {
+    margin-left: 0%;
+  }
+  .Flexgrid-col--lg2 {
+    -webkit-flex: 0 0 16.66667%;
+    -ms-flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  .Flexgrid-col--lgoffset_1 {
+    margin-left: 8.33333%;
+  }
+  .Flexgrid-col--lg3 {
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .Flexgrid-col--lgoffset_2 {
+    margin-left: 16.66667%;
+  }
+  .Flexgrid-col--lg4 {
+    -webkit-flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  .Flexgrid-col--lgoffset_3 {
+    margin-left: 25%;
+  }
+  .Flexgrid-col--lg5 {
+    -webkit-flex: 0 0 41.66667%;
+    -ms-flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  .Flexgrid-col--lgoffset_4 {
+    margin-left: 33.33333%;
+  }
+  .Flexgrid-col--lg6 {
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .Flexgrid-col--lgoffset_5 {
+    margin-left: 41.66667%;
+  }
+  .Flexgrid-col--lg7 {
+    -webkit-flex: 0 0 58.33333%;
+    -ms-flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  .Flexgrid-col--lgoffset_6 {
+    margin-left: 50%;
+  }
+  .Flexgrid-col--lg8 {
+    -webkit-flex: 0 0 66.66667%;
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  .Flexgrid-col--lgoffset_7 {
+    margin-left: 58.33333%;
+  }
+  .Flexgrid-col--lg9 {
+    -webkit-flex: 0 0 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .Flexgrid-col--lgoffset_8 {
+    margin-left: 66.66667%;
+  }
+  .Flexgrid-col--lg10 {
+    -webkit-flex: 0 0 83.33333%;
+    -ms-flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  .Flexgrid-col--lgoffset_9 {
+    margin-left: 75%;
+  }
+  .Flexgrid-col--lg11 {
+    -webkit-flex: 0 0 91.66667%;
+    -ms-flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  .Flexgrid-col--lgoffset_10 {
+    margin-left: 83.33333%;
+  }
+  .Flexgrid-col--lg12 {
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .Flexgrid-col--lgoffset_11 {
+    margin-left: 91.66667%;
+  }
+  .Flexgrid-col--lgorder_1 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .Flexgrid-col--lgorder_2 {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .Flexgrid-col--lgorder_3 {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .Flexgrid-col--lgorder_4 {
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .Flexgrid-col--lgorder_5 {
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .Flexgrid-col--lgorder_6 {
+    -webkit-order: 6;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+}
+@media screen and (min-width: 64em) and (min-width: 64em) {
+  .Flexgrid-col--lgexpand {
+    -webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+  }
+}
+.Flexgrid.Flexgrid-col--lgunstack .Flexgrid-col {
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+@media screen and (min-width: 64em) {
+  .Flexgrid.Flexgrid-col--lgunstack .Flexgrid-col {
+    -webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .Flexgrid-col--lgcollapse > .Flexgrid-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Flexgrid-col--lguncollapse > .Flexgrid-col {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.Flexgrid--alignRight {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.Flexgrid--alignLeft {
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.Flexgrid--alignCenter {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.Flexgrid--alignMiddle {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.Flexgrid--alignSpaceBetween {
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.Flexgrid--alignSpaceAround {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.Flexgrid--alignTop {
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.Flexgrid--alignBottom {
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.Flexgrid--alignStretch {
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+.Flexcol--alignSelfStart {
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+}
+.Flexcol--alignSelfEnd {
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+}
+.Flexcol--alignSelfCenter {
+  -webkit-align-self: center;
+  align-self: center;
+}
+.Flexcol--alignSelfBaseline {
+  -webkit-align-self: baseline;
+  align-self: baseline;
+}
+.Flexcol--alignSelfStretch {
+  -webkit-align-self: stretch;
+  align-self: stretch;
+}
+@media screen and (max-width: 800px) {
+  .Flexgrid--smAlignCenter {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .Flexgrid--smAlignRight {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .Flexgrid--smAlignLeft {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .Flexgrid--smAlignMiddle {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .Flexgrid--smAlignTop {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .Flexgrid--smAlignBottom {
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+}
+.progressCheckOut {
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 910px;
+  margin: auto;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  /*@media screen and (min-width: @tablet) {
+    max-width: initial;
+  }*/
+}
+.progressCheckOut-step .progressCheckOut-wrapper,
+.progressCheckOut-step .progressCheckOut-bodyContent,
+.progressCheckOut-step .progressCheckOut-buttons,
+.progressCheckOut-step .progressCheckOut-button {
+  height: 0;
+  padding: 0;
+  font-size: 0;
+  border: 0;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-step {
+    margin: 0 10px;
+  }
+}
+.progressCheckOut-step--past .progressCheckOut-body {
+  border-left: 3px solid #7cc8c6;
+  margin-left: 17.5px;
+  transition: border-left 1s;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-step--past .progressCheckOut-body {
+    border-left: 0px;
+    margin-left: 0px;
+  }
+}
+.progressCheckOut-step--past .progressCheckOut-background {
+  fill: #7cc8c6;
+  stroke: #7cc8c6;
+  stroke-width: 6;
+  transition: all 1s;
+}
+.progressCheckOut-step--past .progressCheckOut-progress {
+  fill: none;
+  stroke: #7cc8c6;
+  stroke-linecap: round;
+  stroke-width: 6;
+  transition: all 1s ease-in-out;
+}
+.progressCheckOut-step--past .progressCheckOut-title {
+  color: rgba(124, 200, 198, 0.7);
+  transition: all 1s;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-step--active {
+    height: 700px;
+  }
+}
+.progressCheckOut-step--active .progressCheckOut-wrapper {
+  display: initial;
+}
+.progressCheckOut-step--active .progressCheckOut-body {
+  border-left: 0;
+  margin-left: 0px;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-step--active .progressCheckOut-body {
+    border-left: 0;
+    margin-left: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    max-width: 600px;
+    top: 173px;
+    padding: 0;
+  }
+}
+.progressCheckOut-step--active .progressCheckOut-background {
+  fill: #009793;
+  stroke: #009793;
+  stroke-width: 6;
+  transition: all 1s;
+}
+.progressCheckOut-step--active .progressCheckOut-progress {
+  fill: none;
+  stroke: #78bec7;
+  stroke-linecap: round;
+  stroke-width: 6;
+  stroke-dashoffset: 157.08px;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  .progressCheckOut-step--active .progressCheckOut-header {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.95);
+  }
+}
+.progressCheckOut-step--active .progressCheckOut-title {
+  color: #009793;
+  transition: all 1s;
+}
+.progressCheckOut-step--active .progressCheckOut-buttons {
+  padding: 10px;
+}
+.progressCheckOut-step--active .progressCheckOut-button {
+  background: none;
+  min-width: 80px;
+  border-radius: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid rgba(50, 50, 50, 0);
+}
+.progressCheckOut-step--active .progressCheckOut-button + .progressCheckOut-step--active .progressCheckOut-button {
+  margin-left: 25px;
+}
+.progressCheckOut-step--active .progressCheckOut-button--primary {
+  background: #009793;
+  color: white;
+  border-color: #009793;
+}
+.progressCheckOut-step--active .progressCheckOut-wrapper,
+.progressCheckOut-step--active .progressCheckOut-bodyContent,
+.progressCheckOut-step--active .progressCheckOut-buttons,
+.progressCheckOut-step--active .progressCheckOut-button {
+  font-size: initial;
+  height: initial;
+}
+.progressCheckOut-step--active .progressCheckOut-bodyContent {
+  background: rgba(50, 50, 50, 0.4);
+  height: 450px;
+  margin-left: 0;
+  transition: height 1s;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-step--active .progressCheckOut-bodyContent {
+    margin-left: 0px;
+    transition: none;
+  }
+}
+.progressCheckOut-header {
+  margin: 0;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-header {
+    justify-content: center;
+  }
+}
+.progressCheckOut-background {
+  fill: #787878;
+  stroke: #787878;
+  stroke-width: 6;
+  transition: all 1s;
+}
+.progressCheckOut-progress {
+  fill: none;
+  stroke: #787878;
+  stroke-linecap: round;
+  stroke-width: 6;
+  transition: all 1s ease-in-out;
+}
+.progressCheckOut-title {
+  margin-left: 22px;
+  color: rgba(150, 150, 150, 0.8);
+  transition: color 1s;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+.progressCheckOut-step:last-child .progressCheckOut-body {
+  border: 0px;
+}
+.progressCheckOut-body {
+  border-left: 1px solid rgba(50, 50, 50, 0.4);
+  margin-left: 21px;
+  box-sizing: border-box;
+  transition: border-left 1s;
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-body {
+    border-left: 0px;
+    margin-left: 0px;
+  }
+}
+.progressCheckOut-number {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  transition: all 1s;
+}
+.progressCheckOut-value {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  transition: all 1s;
+}
+.progressCheckOut-svg {
+  height: 100%;
+  width: 100%;
+  transform: rotate(-90deg);
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-basket {
+    height: 770px;
+    position: absolute;
+    width: 290px;
+    top: 173px;
+    left: calc(100% - 290px);
+  }
+}
+@media screen and (min-width: 800px) {
+  .progressCheckOut-baskeContent {
+    height: 300px;
+    background: #999;
+    position: sticky;
+    top: 18px;
+  }
+}

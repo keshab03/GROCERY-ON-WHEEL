@@ -1,0 +1,36 @@
+@import 'productcard.css';
+.search-results{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 0 10vw;
+}
+
+.heading span{
+    font-weight: 700;
+}
+
+.bestofr-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: auto;
+    grid-row-gap: 30px;
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.bestofr-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+

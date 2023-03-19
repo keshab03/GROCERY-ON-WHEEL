@@ -1,0 +1,137 @@
+
+
+
+
+/*product container*/
+.prdtbtn {
+    border: none;
+    outline: 0;
+    padding: 0px;
+  margin-left: 10%;
+    color: white;
+    background-color:white;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+  }
+
+  .prdtbtn:hover{
+    opacity: .8;
+  }
+
+
+
+.product-card{
+    flex: 0 0 auto;
+    width: 280px;
+    height: 370px;
+   margin-left: 0px;
+   margin-right: 0px;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-image{
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    position: relative;
+    width: auto;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proimg img{
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+.proimg img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.proimg:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+.discount-tag{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 80%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: lightskyblue;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: deepskyblue;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.product-brand{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.price{
+    font-weight: 900;
+    font-size: 15px;
+    color:blue;
+}
+
+.actual-price{
+    margin-left: 15px;
+    opacity: 0.5;
+    text-decoration: line-through;
+    color: darkred;
+}
+

@@ -1,0 +1,140 @@
+
+@import 'banner.css';
+@import 'productcard.css';
+
+
+body{
+    background-color:white;
+}
+
+/* best selling section*/
+.product{
+    background-color:white;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.bstselling-container{
+    height: 400px;
+    margin-bottom: 15px;
+    padding: 10 5vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.bstselling-container::-webkit-scrollbar{
+    display: none;
+}
+
+/* pre next button*/
+
+.pre-btn, .nxt-btn{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
+}
+
+/*--herosection*/
+.hero-section{
+   
+    width: 100%;
+    
+}
+
+/*collection container*/
+
+.collection-container{
+  
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.collection p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+  
+}
+.collection:nth-child(6){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+.collection:nth-child(9){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+.collection:nth-child(12){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+.collection:nth-child(15){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+.collection:nth-child(18){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
